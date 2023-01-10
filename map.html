@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./map.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jua&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<body>
+    <nav>
+        <div class="inner">
+            <div class="nav-container">
+                <h1 class="title">우리동네 헬스장</h1>
+                <button class="nav-contact">Contact</button>
+            </div>    
+        </div>
+</nav>
+    <main> 
+        <div class="inner category-inner">
+            <div class="category">
+                <div class="category-title">지역을 골라보세요</div>
+                <div class="category-city">
+                    <p class="item" id="gurogu">구로구</p>
+                    <p class="item" id="gwanakgu">관악구</p>
+                </div>
+            </div>
+        </div>
+       
+        <div id="map" class="inner"></div> 
+     
+    </main>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1614f104ac0ed7411d2eac91c0e9546f&libraries=services"></script>
+</script>
+<script src="./map.js"></script>
+</body>
+</html>
